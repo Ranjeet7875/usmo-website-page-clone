@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(1, 1, 1);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+
+}
+.logo{
+    width: 112px;
+    height: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    color: antiquewhite;
+    image-rendering: optimizeQuality;
+}
+
+.menu2>ul{
+    display: flex;  
+    justify-content:flex-end;
+    list-style: none;
+    gap: 20px;
+    color: rgb(255, 255, 255);
+    padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    display: inline;
+    gap: 0%;
+
+    text-align: center;
+}
+
+.heading>p{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 50px;
+    font-size: 55px;
+    font-weight: bolder;
+}
+span{
+    color: blue;
+}
+.heading>div{
+    color: aliceblue;
+}
+.input-taking{
+    text-align: center;
+    padding-top: 50px;
+}
+input{
+    color: rgb(2, 2, 2);
+    width: 400px;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: 3px solid rgb(197, 179, 237);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: rgba(4, 54, 255, 0.56) 0px 22px 70px 4px;
+}
+
+input:hover{
+    box-shadow: rgba(28, 28, 240, 0.25) 0px 54px 55px, rgba(229, 138, 138, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.social-media>ul{
+    display:flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top:20px ;
+}
+.login{
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    border: 2px soli wheat;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
